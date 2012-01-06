@@ -1,6 +1,20 @@
-Wordpress provee la posibilidad de modificar los textos en archivos donde estan configurados. Desde aqu� se pueden adaptar al lenguaje espa�ol particular de la ciudad de Rosario.
+Wordpress provee la posibilidad de modificar los textos en archivos donde estan configurados. Desde aquí se pueden adaptar al lenguaje español particular de la ciudad de Rosario.
 
 El archivo que debe editarse es el .po, el .mo se obtiene ejecutando un comando en la sesion de comandos de linux:
 
 cd ./wp-content/languages
 msgfmt es_ES.po -o es_ES.mo
+
+La mayoría de las palabras a modificar son verbos conjugados con "tú" por el mismo verbo conjugado con "vos", he aquí una lista de los mismos:
+
+* entra
+* disculpa
+* tienes
+* debes
+* puedes
+* ponte
+* prueba
+
+ademas de otras expresiones propias del sitio:
+
+* iniciar sesión
